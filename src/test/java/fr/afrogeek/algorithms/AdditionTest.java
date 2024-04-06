@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
 public class AdditionTest {
     @Test
     void testAdditionPositive() {
@@ -19,4 +20,5 @@ public class AdditionTest {
     void testAdditionNeutral() {
         assertEquals(0, Addition.addition(0, 0));
     }
+
 }
