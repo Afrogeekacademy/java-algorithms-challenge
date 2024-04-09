@@ -10,6 +10,8 @@ import java.util.Random;
  * Trouver le plus petit élément dans un tableau
  * <p>
  * Inverser un tableau
+ *
+ * Implémenter checkBalancedParentheses et ses tests unitaires
  */
 public class App {
     public static void main(String[] args) {
