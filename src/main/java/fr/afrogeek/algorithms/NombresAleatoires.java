@@ -32,9 +32,9 @@ public class NombresAleatoires {
         System.out.println(n);
         return n;}
 
-    public static double[] ArraysTable(){
+    public static int[] ArraysTable(){
     Random rd = new Random(); // creating Random object
-    double[] arr = new double[5];
+    int[] arr = new int[5];
 
 
           System.out.println("----------------------------");

@@ -19,7 +19,7 @@ public class NombresAleatoiresTest {
     @Test
     void testArrayTable(){assertArrayEquals(NombresAleatoires.ArraysTable());}
 
-    private void assertArrayEquals(double[] doubles) {
+    private void assertArrayEquals(int[] ints) {
     }
 
     private void assertEquals(double v) {
