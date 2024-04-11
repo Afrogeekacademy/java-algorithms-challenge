@@ -40,7 +40,7 @@ public class ParenthesesCheckerTest {
 
         @Test
         public void testStringWithoutParentheses() { // Teste le cas ou le string ne contient pas de parenthese
-            assertTrue(App.checkBalancedParentheses("Hello, World!"));
+            assertTrue(App.checkBalancedParentheses("Hello World!"));
         }
 
     }
