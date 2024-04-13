@@ -3,6 +3,10 @@ package fr.afrogeek.algorithms;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+
+/**
+ * Implementation des tests pour la classe PowerCalculator.java
+ */
 public class PowerCalculatorTest {
 
     @Test
