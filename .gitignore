@@ -4,8 +4,10 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
+.idea/
 
 ### another file
+pom.xml
 LICENSE
 README.md
 README_en.md
