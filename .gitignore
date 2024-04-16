@@ -4,13 +4,20 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
+
+### another file
+LICENSE
+README.md
+README_en.md
+src/main/java/fr/afrogeek/algorithms/Subtraction.java
+src/main/java/fr/afrogeek/algorithms/Addition.java
+src/main/java/fr/afrogeek/App.java
+
+src/test/java/fr/afrogeek/algorithms/SubtractionTest.java
+src/test/java/fr/afrogeek/algorithms/AdditionTest.java
+src/test/java/fr/afrogeek/AppTest.java
+
+
 
 ### Eclipse ###
 .apt_generated
