@@ -25,7 +25,6 @@ public class GCDCalculator {
                 return a;
             }
             else{
-                System.out.println("Oups, impossible de trouver le gcd de deux nombres nuls car le gcd est un nombre entier naturel. La valeur de retour sera par défaut de -1 ");
                return -1;
             }
         }
