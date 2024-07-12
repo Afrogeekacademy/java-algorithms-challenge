@@ -3,7 +3,8 @@ import java.util.Scanner;
 // Methode um zu überprüfen, ob ein Zahl gerade oder ungerade ist
 public class EvenNumberChecker {
     public static boolean isEven(int n) {
-           return n % 2==0;
+
+        return n % 2==0;
     }
   // Hauptmethode um das Programm auszuführen
     public static void main(String[] args){
