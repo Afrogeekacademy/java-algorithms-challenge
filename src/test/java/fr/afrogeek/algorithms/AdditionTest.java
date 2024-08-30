@@ -1,22 +1,23 @@
 package fr.afrogeek.algorithms;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class AdditionTest {
     @Test
-    void testAdditionPositive() {
+    public void testAdditionPositive() {
         assertEquals(10, Addition.addition(7, 3));
     }
 
     @Test
-    void testAdditionNegative() {
+    public void testAdditionNegative() {
         assertEquals(-2, Addition.addition(-1, -1));
     }
 
     @Test
-    void testAdditionNeutral() {
+    public void testAdditionNeutral() {
         assertEquals(0, Addition.addition(0, 0));
     }
 }
