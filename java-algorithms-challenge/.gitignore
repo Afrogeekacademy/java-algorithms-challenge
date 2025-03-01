@@ -1,0 +1,47 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+
+### another file
+pom.xml
+LICENSE
+README.md
+README_en.md
+src/main/java/fr/afrogeek/algorithms/Subtraction.java
+src/main/java/fr/afrogeek/algorithms/Addition.java
+src/main/java/fr/afrogeek/App.java
+
+src/test/java/fr/afrogeek/algorithms/SubtractionTest.java
+src/test/java/fr/afrogeek/algorithms/AdditionTest.java
+src/test/java/fr/afrogeek/AppTest.java
+
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
