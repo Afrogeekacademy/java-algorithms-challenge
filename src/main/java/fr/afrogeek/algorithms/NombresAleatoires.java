@@ -7,16 +7,16 @@ public class NombresAleatoires {
     public static double nombreRadom(){
         // génération d'un double >= 0.0 et < 1.0
         double d = Math.random();
-        System.out.println(d);
-        return d; }
+        return d;
+    }
 
     public static int conversion(){
         // La conversion en entier va malheureusement retrancher les chiffres
         // après le point et la valeur obtenue sera 0.
         double d = Math.random();
         int n = (int)d;
-        System.out.println(n);
-        return n; } // toujours 0
+        return n;
+    }
 
     public static int Entiergenere(){
 
@@ -29,31 +29,12 @@ public class NombresAleatoires {
         double d = Math.random();
         int n = (int)d;
         n = (int)(Math.random() * 35);
-        System.out.println(n);
-        return n;}
-
-    public static int[] ArraysTable(){
-    Random rd = new Random(); // creating Random object
-    int[] arr = new int[5];
-
-
-          System.out.println("----------------------------");
-         for (int i = 0; i < arr.length; i++) {
-             arr[i] = rd.nextInt(); // storing random integers in an array
-             System.out.println("|  nombre" + ": |    " + arr[i] + "  |"); // printing each array element
-             System.out.println("----------------------------");
-         }
-
-
-    return arr;
+        return n;
     }
 
-    public static void main(String args[]) {
-
-        nombreRadom();
-        conversion();
-        Entiergenere();
-        ArraysTable();
-
-}
+    public static int[] ArraysTable(){
+        Random rd = new Random(); // creating Random object
+        int[] arr = new int[5];
+        return arr;
+    }
 }

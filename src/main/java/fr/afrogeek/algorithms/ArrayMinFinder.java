@@ -15,11 +15,4 @@ public class ArrayMinFinder {
         }
         return smallest;
     }
-
-    public static void main(String[] args) {
-        int[] array = {3, 5, 2, 8, 6, 1};
-        System.out.println("Le plus petit élément est : " + findSmallestElementInArray(array));
-
-    }
-
 }

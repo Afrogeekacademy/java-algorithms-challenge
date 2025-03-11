@@ -4,11 +4,12 @@
 
   <groupId>fr.afrogeek</groupId>
   <artifactId>java-algorithms-challenge</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>java-algorithms-challenge</name>
-  <url>http://maven.apache.org</url>
+  <name>Java Algorithms Challenge</name>
+  <description>Défi Algorithmes Java : Implémentations et Tests avec Maven</description>
+  <url>https://nexus.geekinstitut.com/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,4 +25,33 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>nexus-repo</id>
+      <url>https://nexus.geekinstitut.com/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>https://nexus.geekinstitut.com/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <build>
+    <plugins>
+      <!-- Plugin pour la création du JAR -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.2</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>fr.afrogeek.App</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
