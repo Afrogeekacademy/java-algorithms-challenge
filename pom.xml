@@ -9,7 +9,7 @@
 
   <name>Java Algorithms Challenge</name>
   <description>Défi Algorithmes Java : Implémentations et Tests avec Maven</description>
-  <url>https://nexus.geekinstitut.com/</url>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
