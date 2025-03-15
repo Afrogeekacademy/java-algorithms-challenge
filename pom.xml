@@ -39,7 +39,6 @@
 
   <build>
     <plugins>
-      <!-- Plugin pour la création du JAR -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
